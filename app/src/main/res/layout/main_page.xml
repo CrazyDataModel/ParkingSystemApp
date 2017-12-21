@@ -47,22 +47,31 @@
         android:layout_marginLeft="5dp"
         android:layout_marginTop="8dp">
 
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="wrap_content">
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:layout_alignTop="@+id/button10"
                 android:text="點選來查看任一停車場的資訊"
                 android:textSize="18sp" />
 
-        </LinearLayout>
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:text="看評論" />
+        </RelativeLayout>
+
     </ScrollView>
 
 </LinearLayout>

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ParkingSystemApp</string>
+    <string name="b1">Search</string>
 </resources>
